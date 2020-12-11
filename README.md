@@ -2,9 +2,12 @@
 
 Pytorch Implementation of the following paper:
 
-"Linearly Replaceable Filters for Deep Network Channel Pruning", AAAI
+"Linearly Replaceable Filters for Deep Network Channel Pruning", AAAI 2021
 
-![fig1](https://user-images.githubusercontent.com/38177577/101866129-612a0900-3bbb-11eb-8050-4e9203dee1b4.PNG)
+
+
+
+<img src="https://user-images.githubusercontent.com/38177577/101866129-612a0900-3bbb-11eb-8050-4e9203dee1b4.PNG"  width="630" height="350">
 
 ## Abstract
 
@@ -19,3 +22,17 @@ This is a technique that effectively reduces the output difference caused by rem
 Through various experiments, we have confirmed that our method achieves state-of-the-art performance in several benchmarks. 
 In particular, on ImageNet, LRF-60 reduces approximately 56% of FLOPs on ResNet-50 without top-5 accuracy drop. 
 Further, through extensive analyses, we proved the effectiveness of our approaches.
+
+## Training
+
+For the pruning, run the following example code.
+
+```
+python main_pruning.py
+```
+## Citation
+
+Citation will be updated after the proceeding is released.
+
+```
+```
