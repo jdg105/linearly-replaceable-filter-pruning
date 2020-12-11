@@ -3,7 +3,9 @@ import torch
 import torch.nn as nn
 from thop import profile
 import copy
-
+def check(dd):
+	print(dd)
+	
 def get_layer_names(model):
 	layer_names = []
 	for name, p in model.named_parameters():
