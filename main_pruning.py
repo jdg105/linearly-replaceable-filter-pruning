@@ -105,12 +105,10 @@ def main():
 		loss, acc = validate(val_loader, model, L_cls_f, '* ')
 		if acc > best_acc: best_acc = acc
 
-		print("[Fine-tune {:03d}] Loss: {:.3f}. Acc: {:2.2f}%. ||\
-		 Param: {:2.2f}%  Flop: {:2.2f}%  Best: {:2.2f}%".format(epochs+1, loss, acc, \
+		print("[Fine-tune {:03d}] Loss: {:.3f}. Acc: {:2.2f}%. || Param: {:2.2f}%  Flop: {:2.2f}%  Best: {:2.2f}%".format(epochs+1, loss, acc, \
 			get_params(model)/num_params*100, get_flops(model)/num_flops*100, best_acc))
 
-	print("\n[Final] Baseline: {:2.2f}%. After Pruning: {:2.2f}%. ||\
-	 Diff: {:2.2f}%  Param: {:2.2f}%  Flop: {:2.2f}%".format(\
+	print("\n[Final] Baseline: {:2.2f}%. After Pruning: {:2.2f}%. || Diff: {:2.2f}%  Param: {:2.2f}%  Flop: {:2.2f}%".format(\
 	 	init_acc, best_acc, init_acc - best_acc, get_params(model)\
 	 	/num_params*100, get_flops(model)/num_flops*100))
 
