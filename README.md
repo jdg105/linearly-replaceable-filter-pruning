@@ -3,7 +3,8 @@
 Pytorch Implementation of the following paper:
 
 "Linearly Replaceable Filters for Deep Network Channel Pruning", AAAI 2021
-
+Donggyu Joo, Eojindl Yi, Sunghyun Baek, Junmo Kim
+\
 
 
 
