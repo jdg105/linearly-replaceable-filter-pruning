@@ -32,7 +32,15 @@ python main_pruning.py
 ```
 ## Citation
 
-Citation will be updated after the proceeding is released.
 
 ```
+@inproceedings{joo2021linearly,
+  title={Linearly Replaceable Filters for Deep Network Channel Pruning},
+  author={Joo, Donggyu and Yi, Eojindl and Baek, Sunghyun and Kim, Junmo},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={35},
+  number={9},
+  pages={8021--8029},
+  year={2021}
+}
 ```
