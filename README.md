@@ -4,7 +4,7 @@ Pytorch Implementation of the following paper:
 
 "Linearly Replaceable Filters for Deep Network Channel Pruning", AAAI 2021
 
-\\
+\
 
 
 <img src="https://user-images.githubusercontent.com/38177577/101866129-612a0900-3bbb-11eb-8050-4e9203dee1b4.PNG"  width="630" height="350">
